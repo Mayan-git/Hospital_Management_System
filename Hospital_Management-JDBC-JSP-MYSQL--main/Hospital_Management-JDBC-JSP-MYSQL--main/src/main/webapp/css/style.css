@@ -1,0 +1,145 @@
+/* ------------------------------
+     Premium Hospital UI Theme
+--------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7, #c8ffd4);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Center Main Page Box */
+.main-container {
+    width: 70%;
+    max-width: 900px;
+    background: rgba(255,255,255,0.65);
+    backdrop-filter: blur(14px);
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #b40047;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* Menu Buttons */
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #ff6f91, #ff9671);
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    background: linear-gradient(135deg, #ff4d6d, #ff577f);
+    transform: translateY(-3px);
+    box-shadow: 0px 7px 18px rgba(255,75,96,0.3);
+}
+
+/* Form Box */
+.form-box {
+    width: 70%;
+    margin: auto;
+    background: rgba(255,255,255,0.75);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Input Fields */
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=time] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #ffc0cb;
+    margin-bottom: 18px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #ff477e;
+    box-shadow: 0 0 8px rgba(255,75,96,0.4);
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #ff4d6d, #ff8fab);
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff0a54, #ff477e);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(255,50,90,0.3);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #ff4d6d;
+    color: white;
+    padding: 12px 0;
+}
+
+td {
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #ffe6eb;
+}
+
+tr:hover {
+    background: #ffd1db;
+}
+
+/* Success Box */
+.success-box {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255,255,255,0.75);
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
