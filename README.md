@@ -5,9 +5,13 @@ Hospital Management System is a web-based application built using Java JSP, Serv
 Features
 
 View a list of Doctors with specialties.
+
 View a list of Patients with details (age, gender, phone).
+
 Connects to a MySQL database for dynamic data management.
+
 Clean and responsive HTML/CSS interface.
+
 Foundation for future features: appointments, alerts, prescriptions.
 
 
@@ -15,6 +19,9 @@ Tech Stack
 
 
 Frontend: JSP, HTML, CSS
+
 Backend: Java Servlets
+
 Database: MySQL
+
 IDE: IntelliJ IDEA
